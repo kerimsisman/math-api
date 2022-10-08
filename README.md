@@ -16,7 +16,7 @@ URL https://github-math-api.herokuapp.com/min Method: POST Return the min number
 curl --location --request POST 'https://github-math-api.herokuapp.com/min?quantifier=2' \
 --header 'Content-Type: application/json' \
 --data-raw '[4,0,475,77,87,8,787,87,8,-1]'
-#### response 
+##### output  
 [
     -1,
     0
@@ -30,7 +30,7 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/max?quanti
 --data-raw '[
    4,65,65,1,56,15,89,156,4895,1564,58,56,9,6,9,6,98,6414,984,655,9,1,8,5,484
 ]'
-#### response 
+##### output 
 [
     1564,
     4895,
@@ -46,7 +46,7 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/avg' \
 --data-raw '[
     4,41,75,7,758,78,7,4,2,5,899,57,4
 ]'
-#### response 
+##### output 
 149.30769230769232
 
 ### 4- /median
@@ -58,7 +58,7 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/median' \
 --data-raw '[
    2,3,2,5
 ]'
-#### response 
+##### output 
 2.5
 
 ### 5- /percentile
@@ -70,7 +70,7 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/percentile
 --data-raw '[
     4,41,75,7,758,78,7,4,2,5,899,57,4
 ]'
-#### response 
+##### output 
 4
 
 #### example-2
@@ -80,7 +80,7 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/percentile
     4,41,75,7,758,78,7,4,2,5,899,57,4
 ]'
 
-#### response 
+##### output 
 78
 
 ### JUnit Test
