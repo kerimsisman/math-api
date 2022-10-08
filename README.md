@@ -1,4 +1,4 @@
-# math-api
+# Math-api
 This app has 5 endpoints. OpenApi/swagger-ui integrated. Services developer by Java Spring Boot framework and deployed on Heroku. You can see swagger and openApi urls below.
 
 
