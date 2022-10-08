@@ -105,7 +105,7 @@ public class MathController {
 			@ApiResponse(responseCode = "200", description = "Calculate the average. Null values are not not considered.", content = {
 					@Content(mediaType = "application/json", schema = @Schema(implementation = Double.class)) }) })
 	@ApiErrorResponses
-	@PostMapping("/average")
+	@PostMapping("/avg")
 	public ResponseEntity<Double> getAverage(@RequestBody(required = true) List<Long> numberList)
 			throws IllegalArgumentException, NoResultException {
 
