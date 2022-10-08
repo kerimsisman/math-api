@@ -18,6 +18,6 @@ jobs:
     # uses: AkhileshNS/heroku-deploy@79ef2ae4ff9b897010907016b268fd0f88561820
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
-      heroku_api_key: ${{secret.HEROKU_API_KEY}}
-      heroku_email: ${{secret.HEROKU_EMAIL}}
-      heroku_app_name: ${{secret.HEROKU_APP_NAME}}
+        heroku_api_key: ${{secret.HEROKU_API_KEY}}
+        heroku_email: ${{secret.HEROKU_EMAIL}}
+        heroku_app_name: ${{secret.HEROKU_APP_NAME}}
