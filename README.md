@@ -84,5 +84,23 @@ curl --location --request POST 'https://github-math-api.herokuapp.com/percentile
 78
 
 ### JUnit Test
-Junit test included for each service.
+Junit test included for each service. See "Local deployment and test" part for maven execution.
+
+### Local deployment and test
+#### Clone repo
+  Clone repo to your local machine
+  URL https://github.com/kerimsisman/math-api.git
+#### Open terminal
+  Be sure you have maven and java in your class path and then open terminal.
+ 
+>java -version
+
+>mvn -version
+
+#### Maven clean install
+  "mvn clean install -U" Clean and install project to bild jar file
+#### Unit test
+  "mvn test" run 5 unit test
+
+
 
